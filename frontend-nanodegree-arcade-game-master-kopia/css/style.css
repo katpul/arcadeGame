@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+}
+
+
+#winnerModal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0, 0, 0, 0.84);
+
+}
+
+
+p {
+  justify-content: center;
+
+}
+
+.congrats {
+    font-weight: 700;
+    font-size: 4em;
+    color: #ffffff;
+}
+
+.playAgain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: solid 2px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
